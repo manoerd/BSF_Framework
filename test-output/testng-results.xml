@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="7" total="27" passed="20">
+  <reporter-output>
+    <line>
+      <![CDATA[Negate of 6 = -6]]>
+    </line>
+    <line>
+      <![CDATA[Negate of 9 = -9]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="146" started-at="2020-06-29T16:36:55Z" finished-at="2020-06-29T16:36:55Z">
+    <groups>
+      <group name="arithmetic">
+        <method signature="Calculator.add(int, int)[pri:0, instance:com.scuba.training.Calculator@185d8b6]" name="add" class="com.scuba.training.Calculator"/>
+        <method signature="Calculator.sub(int, int)[pri:0, instance:com.scuba.training.Calculator@185d8b6]" name="sub" class="com.scuba.training.Calculator"/>
+      </group> <!-- arithmetic -->
+      <group name="mathematical">
+        <method signature="Calculator.inverse(int)[pri:0, instance:com.scuba.training.Calculator@4e1d422d]" name="inverse" class="com.scuba.training.Calculator"/>
+        <method signature="Calculator.negate(int)[pri:0, instance:com.scuba.training.Calculator@4e1d422d]" name="negate" class="com.scuba.training.Calculator"/>
+        <method signature="Calculator.inverse(int)[pri:0, instance:com.scuba.training.Calculator@185d8b6]" name="inverse" class="com.scuba.training.Calculator"/>
+        <method signature="Calculator.negate(int)[pri:0, instance:com.scuba.training.Calculator@185d8b6]" name="negate" class="com.scuba.training.Calculator"/>
+      </group> <!-- mathematical -->
+    </groups>
+    <test name="Test 1" duration-ms="39" started-at="2020-06-29T16:36:55Z" finished-at="2020-06-29T16:36:55Z">
+      <class name="com.scuba.training.Calculator">
+        <test-method status="PASS" signature="inverse(int)[pri:0, instance:com.scuba.training.Calculator@4e1d422d]" name="inverse" duration-ms="9" started-at="2020-06-29T22:06:55Z" data-provider="data1" finished-at="2020-06-29T22:06:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inverse -->
+        <test-method status="PASS" signature="negate(int)[pri:0, instance:com.scuba.training.Calculator@4e1d422d]" name="negate" duration-ms="9" started-at="2020-06-29T22:06:55Z" finished-at="2020-06-29T22:06:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Negate of 6 = -6]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- negate -->
+        <test-method status="PASS" signature="inverse(int)[pri:0, instance:com.scuba.training.Calculator@4e1d422d]" name="inverse" duration-ms="1" started-at="2020-06-29T22:06:55Z" data-provider="data1" finished-at="2020-06-29T22:06:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inverse -->
+      </class> <!-- com.scuba.training.Calculator -->
+    </test> <!-- Test 1 -->
+    <test name="Test 2" duration-ms="67" started-at="2020-06-29T16:36:55Z" finished-at="2020-06-29T16:36:55Z">
+      <class name="com.scuba.training.Calculator">
+        <test-method status="PASS" signature="add(int, int)[pri:0, instance:com.scuba.training.Calculator@185d8b6]" name="add" duration-ms="2" started-at="2020-06-29T22:06:55Z" data-provider="data" finished-at="2020-06-29T22:06:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="divInt(int, int)[pri:0, instance:com.scuba.training.Calculator@185d8b6]" name="divInt" duration-ms="2" started-at="2020-06-29T22:06:55Z" data-provider="data" finished-at="2020-06-29T22:06:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divInt -->
+        <test-method status="PASS" signature="add(int, int)[pri:0, instance:com.scuba.training.Calculator@185d8b6]" name="add" duration-ms="1" started-at="2020-06-29T22:06:55Z" data-provider="data" finished-at="2020-06-29T22:06:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="divInt(int, int)[pri:0, instance:com.scuba.training.Calculator@185d8b6]" name="divInt" duration-ms="2" started-at="2020-06-29T22:06:55Z" data-provider="data" finished-at="2020-06-29T22:06:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divInt -->
+        <test-method status="PASS" signature="divReal(int, int)[pri:0, instance:com.scuba.training.Calculator@185d8b6]" name="divReal" duration-ms="2" started-at="2020-06-29T22:06:55Z" data-provider="data" finished-at="2020-06-29T22:06:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divReal -->
+        <test-method status="PASS" signature="exp(double, double)[pri:0, instance:com.scuba.training.Calculator@185d8b6]" name="exp" duration-ms="12" started-at="2020-06-29T22:06:55Z" data-provider="data" finished-at="2020-06-29T22:06:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exp -->
+        <test-method status="PASS" signature="divReal(int, int)[pri:0, instance:com.scuba.training.Calculator@185d8b6]" name="divReal" duration-ms="7" started-at="2020-06-29T22:06:55Z" data-provider="data" finished-at="2020-06-29T22:06:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divReal -->
+        <test-method status="PASS" signature="exp(double, double)[pri:0, instance:com.scuba.training.Calculator@185d8b6]" name="exp" duration-ms="12" started-at="2020-06-29T22:06:55Z" data-provider="data" finished-at="2020-06-29T22:06:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exp -->
+        <test-method status="PASS" signature="inverse(int)[pri:0, instance:com.scuba.training.Calculator@185d8b6]" name="inverse" duration-ms="3" started-at="2020-06-29T22:06:55Z" data-provider="data1" finished-at="2020-06-29T22:06:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inverse -->
+        <test-method status="PASS" signature="inverse(int)[pri:0, instance:com.scuba.training.Calculator@185d8b6]" name="inverse" duration-ms="1" started-at="2020-06-29T22:06:55Z" data-provider="data1" finished-at="2020-06-29T22:06:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inverse -->
+        <test-method status="PASS" signature="mod(int, int)[pri:0, instance:com.scuba.training.Calculator@185d8b6]" name="mod" duration-ms="8" started-at="2020-06-29T22:06:55Z" data-provider="data" finished-at="2020-06-29T22:06:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mod -->
+        <test-method status="PASS" signature="mod(int, int)[pri:0, instance:com.scuba.training.Calculator@185d8b6]" name="mod" duration-ms="1" started-at="2020-06-29T22:06:55Z" data-provider="data" finished-at="2020-06-29T22:06:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mod -->
+        <test-method status="PASS" signature="mul(int, int)[pri:0, instance:com.scuba.training.Calculator@185d8b6]" name="mul" duration-ms="5" started-at="2020-06-29T22:06:55Z" data-provider="data" finished-at="2020-06-29T22:06:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method status="PASS" signature="negate(int)[pri:0, instance:com.scuba.training.Calculator@185d8b6]" name="negate" duration-ms="1" started-at="2020-06-29T22:06:55Z" finished-at="2020-06-29T22:06:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Negate of 9 = -9]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- negate -->
+        <test-method status="PASS" signature="mul(int, int)[pri:0, instance:com.scuba.training.Calculator@185d8b6]" name="mul" duration-ms="2" started-at="2020-06-29T22:06:55Z" data-provider="data" finished-at="2020-06-29T22:06:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method status="PASS" signature="sub(int, int)[pri:0, instance:com.scuba.training.Calculator@185d8b6]" name="sub" duration-ms="2" started-at="2020-06-29T22:06:55Z" data-provider="data" finished-at="2020-06-29T22:06:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method status="PASS" signature="sub(int, int)[pri:0, instance:com.scuba.training.Calculator@185d8b6]" name="sub" duration-ms="2" started-at="2020-06-29T22:06:55Z" data-provider="data" finished-at="2020-06-29T22:06:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+      </class> <!-- com.scuba.training.Calculator -->
+    </test> <!-- Test 2 -->
+  </suite> <!-- Suite -->
+</testng-results>
